@@ -3,13 +3,19 @@
 using namespace std;
 int main()
 {   
-	string Name;
-	int Yob;
-	cout <<" Enter name : ";
-	cin  >>  Name;
-	cout <<" Yob : ";
-	cin  >>  Yob;
-	cout <<" Your Age " << 2566-Yob << " year old " <<endl;
-	
+    string Name;
+	float Salary,Sale,CommissionPercent;
+	cout <<" Enter name  : ";
+	cin  >>Name;
+	cout <<" Enter salary  : ";
+	cin  >>Salary;
+    cout <<" Enter sale  : ";
+	cin  >>Sale;
+	cout <<" Enter Commission Percent  : ";
+	cin  >>CommissionPercent;
+	cout << "Your Name = Pornchanit Boonsaeng";
+    cout <<"--------output--------------\n";
+	cout <<"Total Revenue = " << Salary+(Sale*(CommissionPercent/100)) <<endl;
+	system("pause");
 	return 0;
 }
