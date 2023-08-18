@@ -1,0 +1,44 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() 
+{
+    char menu;
+    float salary,sale,commission;
+    do
+    { 
+        cout<<"1.Input salary\n";
+        cout<<"2.Input Sale\n";
+        cout<<"3.Report\n";
+        cout<<"4.Exit\n";
+        cout<<"Enter menu : ";
+        cin>>menu;
+        if(menu == '1')
+        {   
+            cout<<"Input Salary: ";
+            cin>>salary;
+            
+        }
+        else if(menu == '2')
+        {
+            cout<<"Input Sale: ";
+            cin>>sale;
+        }    
+        
+        }else if(menu == '3')
+            {   
+                cout <<"salary: ";
+                cin  >>salary;
+                cout <<"Sale : ";
+                cin  >>sale;
+                cout <<"Commission: ";
+                cin  >>comission;
+                cout <<"Total = "<<salary+(sale*(commission/100)) <<endl;
+            }
+            cout<<"*****Exit*****\n";
+            }
+       
+    }while(menu != '4');
+
+    return 0;
+}
