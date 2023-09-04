@@ -14,7 +14,8 @@ int main()
 		cin>>ch;
 		if(ch == '1')CalCircle();
 			else if (ch == '2')cout<<"Rectangle"<<endl;
-				else cout << "wrong menu: "<<endl;
+				else if (ch == '3')cout<<"Exit"<<endl;
+					else cout << "wrong menu: "<<endl;
 	
 	}while(ch != 3);
 
