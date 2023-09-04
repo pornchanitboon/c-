@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 void CalCircle();
+void CalRec();
 int main()
 {	char ch;
 	do
@@ -13,7 +14,7 @@ int main()
 		cout<<"choose menu : "<<endl;
 		cin>>ch;
 		if(ch == '1')CalCircle();
-			else if (ch == '2')cout<<"Rectangle"<<endl;
+			else if (ch == '2')CalRec();
 				else if (ch == '3')cout<<"Exit"<<endl;
 					else cout << "wrong menu: "<<endl;
 	
@@ -32,5 +33,17 @@ void CalCircle()
 	cout << "Area of circle : " << Area << endl;
 	cout << "Circumference of circle : " << Circumference << endl;
 	cout << "Diameter of circle : " << (2*Radius) << endl;
+
+}
+void CalRec()
+{
+	int w, l,Area;
+	cout << "Input w : ";
+	cin >> w;
+	cout << "Input l : ";
+	cin >> l;
+	Area = w*l;
+	cout << endl;
+	cout << "Area of Rectangle : " << Area << endl;
 
 }
