@@ -85,6 +85,7 @@ void Viewid(int &numS,int quiz[10],int mid[10],int final[10])
 		{
 			cout<<"Your ID is not found"<<endl;
 		}
+		break;
 	}
 
 }
