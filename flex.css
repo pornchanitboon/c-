@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex: wrap;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.items{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 230, 5, 0.986);
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: wrap;
+}
